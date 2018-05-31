@@ -1,0 +1,6 @@
+test/
+docs/
+jest-puppeteer.config.js
+.*
+*.log
+src/

@@ -1,0 +1,17 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["standard", "plugin:jest/recommended"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest/globals": true
+  },
+  "plugins": ["jest"],
+  "globals": {
+    "$": false,
+    "page": false,
+    "alchemize": false,
+    "PATH": false,
+    "navigate": false
+  }
+}
