@@ -20,6 +20,11 @@
     "watch": "run-p babel:watch webpack:watch",
     "test": "jest"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "run-s lint build test"
+    }
+  },
   "dependencies": {
     "matches-selector": "^1.2.0"
   },
@@ -40,6 +45,7 @@
     "eslint-plugin-promise": "^3.8.0",
     "eslint-plugin-standard": "^3.1.0",
     "express": "^4.16.3",
+    "husky": "^1.0.0-rc.8",
     "jest": "^23.1.0",
     "jest-cli": "^23.1.0",
     "jest-puppeteer": "^3.0.1",

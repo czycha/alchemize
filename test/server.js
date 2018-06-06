@@ -26,10 +26,10 @@ app.use((req, res) => {
       <body>
         <div id="root"></div>
         ${normalizeAssets(assetsByChunkName.main)
-          .filter(path => path.endsWith('.js'))
-          .map(path => `<script src="${path}"></script>`)
-          .join('\n')
-        }
+    .filter(path => path.endsWith('.js'))
+    .map(path => `<script src="${path}"></script>`)
+    .join('\n')
+}
         <script src="https://cdnjs.cloudflare.com/ajax/libs/cash/2.1.7/cash.min.js"></script>
       </body>
     </html>`

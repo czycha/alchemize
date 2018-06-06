@@ -62,4 +62,3 @@ typings/
 
 dist/
 .DS_Store
-test/browser/js/nilbog.min.js
